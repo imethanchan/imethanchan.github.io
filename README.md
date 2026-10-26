@@ -2,7 +2,7 @@
 
 Live website: https://imethanchan.github.io/
 
-Public contact: pokmanchan@gmail.com
+Public contact: pokmanchan726@gmail.com
 
 ## Updating the website
 Use **Owner sign in** in the website footer to open the secure studio. The studio remains hosted on the existing backend; only the public pages are hosted on GitHub Pages.

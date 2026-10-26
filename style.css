@@ -79,4 +79,6 @@
 
 .category-empty{color:#aaa;padding:24px 0 48px}.gallery-bar{gap:24px}.gallery-bar .filters{flex-wrap:wrap}.work-caption:empty{display:none}
 
+.photography-subcategories{margin:-16px 0 40px;padding:20px 0;border-bottom:1px solid #333}.photography-subcategories>p{font-size:12px;color:#aaa;margin:0 0 12px}.photography-subcategories .filters{display:flex;flex-wrap:wrap;gap:8px}
+
 .refresh-notice{position:fixed;bottom:12px;left:12px;right:12px;z-index:30;padding:12px 18px;background:#f7f6f0;color:#233f34;border:1px solid #aaa;font:13px Arial;border-radius:4px}

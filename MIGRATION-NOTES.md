@@ -9,3 +9,8 @@
 - Included React source, build script, package manifest and lockfile for future development.
 - Preserved the existing website design, current email, downloadable CV, Photography subcategories and optional-title behavior.
 - Preserved the previous local folders and hosting deployment as a backup; the migrated website no longer uses them.
+
+## CV website address update
+- Changed the visible CV website line to https://imethanchan.github.io/ and retained the same clickable destination.
+- Preserved all remaining CV content, current email and one-page layout. The previous PDF is retained locally as a backup.
+

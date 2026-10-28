@@ -14,3 +14,7 @@
 - Changed the visible CV website line to https://imethanchan.github.io/ and retained the same clickable destination.
 - Preserved all remaining CV content, current email and one-page layout. The previous PDF is retained locally as a backup.
 
+
+## CV design tools update
+- Added DaVinci Resolve (Intermediate) to Design Tools. Wrapped that bullet onto two lines and retained the one-page layout, remaining content and contact links.
+

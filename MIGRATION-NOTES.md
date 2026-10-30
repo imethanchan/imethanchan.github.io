@@ -25,3 +25,10 @@
 ## CV design tools update
 - Added DaVinci Resolve (Intermediate) to Design Tools. Wrapped that bullet onto two lines and retained the one-page layout, remaining content and contact links.
 
+
+## Local My Studio editor — 31 October 2026
+- Added a local visual editor and one-click launcher in the website folder. It verifies GitHub user imethanchan (ID 346222955) and repository write access through the existing official CLI connection.
+- Added forms for website text, CV sections, photos, grouped projects, captions, backgrounds and layout. Publishing saves data and uploaded files in one non-forced GitHub commit; conflicting updates are rejected.
+- Replaced the public footer's direct GitHub editing link with My Studio and local-launch instructions. Public viewing remains open.
+- The editor listens only on loopback and requires a local browser session, matching Origin/Host and CSRF token. GitHub credentials remain in the Windows keyring; no Cloudflare or ChatGPT sign-in is required.
+- Tested owner/permission rejection, session/logout, CSRF and host/origin controls, data reads, allowed upload paths and conflict-safe atomic publishing. Verified the actual owner connection and loaded all 57 existing works. Preserved original files and CV.

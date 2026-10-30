@@ -1,8 +1,12 @@
-# Edit your website with GitHub
+# Edit your website with My Studio
 
 Website: https://imethanchan.github.io/
 
-Sign in to GitHub as **imethanchan**. Public visitors can view the website and download its files. Publishing changes requires write access to this repository. The website does not have a separate studio login.
+For the visual editor, double-click **Open My Studio.cmd** in your website folder on your editing computer. Click **Connect my GitHub account**, edit with the forms, then click **Publish changes**. The editor verifies the connected GitHub CLI account is **imethanchan** and saves text, photos, CV PDFs and photo projects directly to this repository. The website footer opens [My Studio](https://imethanchan.github.io/studio.html) with launcher instructions.
+
+The local editor runs only on that computer. GitHub Pages publishes the public site after each save, which can take a few minutes. No Cloudflare account, ChatGPT login or online editor backend is required. Public visitors cannot edit the website. Anyone using your unlocked Windows account and its existing GitHub CLI connection can use the local editor, so protect that computer.
+
+The instructions below remain available for manual editing through GitHub.
 
 ## Change your website text and layout
 

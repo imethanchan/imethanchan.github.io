@@ -12,6 +12,7 @@ Read [EDITING.md](EDITING.md) for step-by-step instructions.
 
 - [Edit website text and layout](https://github.com/imethanchan/imethanchan.github.io/blob/main/content.json)
 - [Edit artwork titles, categories and descriptions](https://github.com/imethanchan/imethanchan.github.io/blob/main/artworks.json)
+- [Edit grouped photo projects and descriptions](https://github.com/imethanchan/imethanchan.github.io/blob/main/projects.json)
 - [Upload photographs or replace cv.pdf](https://github.com/imethanchan/imethanchan.github.io/upload/main)
 
 Publishing requires repository write access through GitHub. Public viewing does not grant editing access.

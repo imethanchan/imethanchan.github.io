@@ -1,5 +1,12 @@
 # GitHub Pages migration 29 October 2026
 
+## Project category 30 October 2026
+
+- Added a Project filter alongside Photography, with project cover cards and a grouped photo-series view.
+- Projects support a description, optional title/year and per-photo captions, previews and original-file links.
+- Added projects.json for GitHub editing. Existing artwork IDs can be reused without duplicating photo files; direct project-only photo uploads are also supported.
+- Added empty-project messaging and build validation for project IDs, photo references and files. Existing photographs and category assignments are unchanged.
+
 - Exported all 57 visible portfolio works, their titles, descriptions, years, categories and original files.
 - Preserved original file bytes and recorded their SHA-256 checksums in migration-inventory.json.
 - Added 1600-pixel WebP gallery previews. Original files remain available in the enlarged view and original-file links.

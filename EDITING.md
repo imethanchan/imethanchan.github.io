@@ -59,6 +59,35 @@ Optional: upload a smaller image and add `"preview_url": "/hong-kong-evening-pre
 
 Edit its entry in [artworks.json](https://github.com/imethanchan/imethanchan.github.io/blob/main/artworks.json). To hide a work, remove its entry from the array; its image file stays in the repository. No original files are deleted automatically.
 
+## Add a project with several photos
+
+The **Project** category groups photos into series with a shared description. Projects also appear under **All**. Edit [projects.json](https://github.com/imethanchan/imethanchan.github.io/blob/main/projects.json), which starts as an empty array (`[]`). Add an entry like this, replacing the example IDs with IDs from `artworks.json`:
+
+```json
+[
+  {
+    "id": "my-first-project",
+    "title": "My photo series",
+    "year": "2026",
+    "description": "Describe the idea, place or story behind this group of photographs. Use \\n for a new paragraph.",
+    "photos": [
+      {"artwork_id": "REPLACE_WITH_FIRST_ARTWORK_ID", "caption": "An optional caption for this photo."},
+      {"artwork_id": "REPLACE_WITH_SECOND_ARTWORK_ID", "caption": ""}
+    ]
+  }
+]
+```
+
+The first photo becomes the project cover. The photos appear in the order listed. Opening the project displays the full description and photo series, with an original-file link for each photo. Project titles are optional: blank or `-` hides the title.
+
+You can use existing artwork IDs without uploading duplicate files. For a photo that should appear only inside the project, upload its file first and use a direct entry in `photos` instead:
+
+```json
+{"file_url": "/my-project-photo.jpg", "preview_url": "/my-project-preview.webp", "caption": "Optional caption"}
+```
+
+`preview_url` is optional. A project needs at least one valid photo to appear. Add `"visible": false` to hide a project while keeping its photos. Commit changes to `main` and wait for Pages to publish; ordinary project edits do not require a local rebuild.
+
 ## Replace the downloadable CV
 
 Upload a PDF named **cv.pdf** to the repository root and commit the replacement. Both Download CV buttons use that file. Editing the website CV text does not rewrite this PDF, so update both when needed.
